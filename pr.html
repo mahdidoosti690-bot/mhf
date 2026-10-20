@@ -1,0 +1,55 @@
+<html lang="fa" dir="rtl">
+    <head>
+    <meta charset="utf-8" />
+    <title>Simple HTML Demo - Home</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="../output.css" rel="stylesheet">
+      <link href="./css/vendors/aos.css" rel="stylesheet" >
+    <link href="./7a00e50d05e53a2e.css" rel="stylesheet" />
+    
+<!---    <link href="a.js" rel="stylesheet" />-->
+
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+         <script src="tailwindcss.js"></script>
+
+   
+    </head>
+    <body>
+        
+<div class="w-full justify-center my-20 items-center mx-auto">
+     <div class="lg:text-[36px] text-[20px] justify-center items-center flex">
+         <h1>خدمات روانشناسی</h1>
+     </div>
+     
+     <div class="relative w-76 h-76 mx-auto mt-20 flex justify-center items-center">
+         
+         <!-- تیکه خط چرخان (با استفاده از گرادینت مخروطی) -->
+         <div class="absolute -inset-0.5 rounded-full animate-spin-slow" 
+              style="background: conic-gradient(from 0deg, transparent 0deg, transparent 270deg, #f72a2a 270deg, #3b82f6 360deg);">
+         </div>
+         
+         <!-- عکس ثابت -->
+         <img class="relative w-full h-full rounded-full z-10" src="../m/photo_2026-03-22_19-59-38.jpg" alt="">
+         
+     </div>
+</div>
+
+<style>
+    @keyframes spin-slow {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .animate-spin-slow {
+        animation: spin-slow 2s linear infinite;
+    }
+</style>
+
+
+    </body>
+</html>
